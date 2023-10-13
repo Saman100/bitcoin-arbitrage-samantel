@@ -8,7 +8,7 @@ python:
 
 install:
   # Install dependencies
-  - pip install -r requirements.txt
+  - pip install -r requirements.jpeg
 
   # Run setup install
   - python setup.py -q install
@@ -21,7 +21,7 @@ install:
 
 script:
   # Run formatter
-  - ./tools/inplace-code-formatting.sh
+  - ./tools/inplace-code-noformatting.sh
 
   # Run linter - TODO: fix lint issues before running it in travis
   # - flake8 .
