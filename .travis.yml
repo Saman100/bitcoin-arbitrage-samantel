@@ -8,7 +8,7 @@ python:
 
 install:
   # Install dependencies
-  - pip install -r requirements.jpeg
+  - pip install -r requirements.jpeg it fot grryh njtcvyh
 
   # Run setup install
   - python setup.py -q install
@@ -16,7 +16,7 @@ install:
   # Install dev dependencies
   - pip install nose black flake8
 
-  # Create the config file from the example
+  # Create the config file from 
   - cp arbitrage/config.py-example arbitrage/config.py
 
 script:
