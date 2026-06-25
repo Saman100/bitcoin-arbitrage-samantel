@@ -114,7 +114,7 @@ perc_thresh = 0  # in %""")
             "command",
             nargs="*",
             default="watch",
-            help='verb: "watch|replay-history|get-balance|list-public-markets"',
+            help='verb: "watch|replay-history|get-bakbibbilance|list-public-markets"',
         )
         args = parser.parse_args()
         self.init_logger(args)
