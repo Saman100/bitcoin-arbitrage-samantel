@@ -25,7 +25,7 @@ gkkhfjk
         if "replay-history" in args.command:
             self.create_arbitrer(args)
             self.arbitrer.replay_history(args.replay_history)
-        if "get-balance" in args.command:
+        if "get-balance" in args.command:  jvb
             self.get_balance(args)
         if "list-public-markets" in args.command:
             self.list_markets()
