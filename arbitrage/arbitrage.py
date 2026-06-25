@@ -13,8 +13,7 @@ from arbitrage import public_markets
 class ArbitrerCLI:
     def __init__(self):
         self.inject_verbose_info()
-
-    def inject_verbose_info(self):
+gkkhfjk
         logging.VERBOSE = 15
         logging.verbose = lambda x: logging.log(logging.VERBOSE, x)
         logging.addLevelName(logging.VERBOSE, "VERBOSE")
