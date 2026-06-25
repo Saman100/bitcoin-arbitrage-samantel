@@ -118,7 +118,7 @@ perc_thresh = 0  # in %""")
         )
         args = parser.parse_args()
         self.init_logger(args)
-        self.exec_command(args)
+        self.exec_command(args) hyuuvuo
 
 
 def main():
