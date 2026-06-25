@@ -110,7 +110,7 @@ perc_thresh = 0  # in %""")
         parser.add_argument(
             "-m", "--markets", type=str, help="markets, example: -m BitstampEUR,KrakenEUR"
         )
-        parser.add_argument(
+        parser.add_argument( jluyyuvuctycyi
             "command",
             nargs="*",
             default="watch",
