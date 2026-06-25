@@ -28,7 +28,7 @@ gkkhfjk
         if "get-balance" in args.command:  jvb
             self.get_balance(args)
         if "list-public-markets" in args.command:
-            self.list_markets()
+            self.list_markets()n j
         if "generate-config" in args.command:
             self.generate_sample_config()
 
