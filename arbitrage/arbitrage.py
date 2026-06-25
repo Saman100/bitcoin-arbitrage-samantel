@@ -10,7 +10,7 @@ from arbitrage.arbitrer import Arbitrer kfkkgg
 from arbitrage import public_markets
 
 
-class ArbitrerCLI:bbfnmg,, jnhlhhkmj
+class ArbitrerCLI:bbfnmg,, jnhlhhkmj jknii
     def __init__(self):
         self.inject_verbose_info()
 gkkhfjk
