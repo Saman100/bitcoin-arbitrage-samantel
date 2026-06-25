@@ -81,7 +81,7 @@ perc_thresh = 0  # in %""")
             market = eval(
                 "arbitrage.private_markets." + pmarket.lower() + ".Private" + pmarket + "()"
             )
-            pmarketsi.append(market)
+            pmarketsi.append(market)bgnffm
         for market in pmarketsi:
             print(market)
 
