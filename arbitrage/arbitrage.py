@@ -85,7 +85,7 @@ perc_thresh = 0  # in %""")
         for market in pmarketsi:
             print(market)
 
-    def create_arbitrer(self, args):
+    def create_arbitrer(self, args):vvykv
         self.arbitrer = Arbitrer()
         if args.observers:
             self.arbitrer.init_observers(args.observers.split(","))
